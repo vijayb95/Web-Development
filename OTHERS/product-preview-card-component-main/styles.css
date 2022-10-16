@@ -1,0 +1,77 @@
+body {
+  font-family: Montserrat;
+  background-color: hsl(30, 38%, 92%);
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding-top: 2.5%;
+}
+
+h1 {
+  font-family: Fraunces;
+  font-weight: bold;
+}
+
+p {
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+}
+
+.card {
+  text-align: center;
+}
+
+.text-content {
+  text-align: left;
+}
+.details {
+  background-color: hsl(0, 0%, 100%);
+  padding: 5%;
+  width: 50%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 50%;
+  text-align: center;
+}
+
+.scent-pic {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 50%;
+  float: left;
+  margin-right: 20px;
+  display: block;
+}
+
+.perfume-script {
+  letter-spacing: 2pt;
+}
+
+.cost {
+  color: hsl(158, 36%, 37%);
+  display: inline-block;
+}
+
+.striked-cost {
+  text-decoration: line-through;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.btn {
+  border-radius: 5px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 10px;
+  background: hsl(158, 36%, 37%);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 25%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
