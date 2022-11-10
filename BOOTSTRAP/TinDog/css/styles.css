@@ -1,37 +1,48 @@
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 .container-fluid {
   padding: 3% 15% 7%;
 }
 
-#title {
+.colored-section {
   background-color: #ff4c68;
   color: #fff;
 }
 
-h1 {
-  font-family: "Montserrat", sans-serif;
+.white-section {
+  background-color: #fff;
+}
+
+#title {
+  color: #fff;
+  text-align: left;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 2.75rem;
+.section-heading {
+  font-size: 3rem;
   line-height: 1.5;
-}
-
-h3 {
-  font-weight: 700;
-  font-size: 1.5rem;
-}
-
-p {
-  color: #8f8f8f;
 }
 
 /* Navigation Bar */
@@ -70,21 +81,23 @@ p {
 
 /* Features */
 #features {
-  padding: 5% 0%;
-  background-color: #fff;
+  padding: 7% 15%;
   position: relative;
   z-index: 1;
 }
 
 .feature {
   padding: 4.5%;
-  text-align: center;
+}
+
+.feature-text {
+  font-size: 1.75rem;
 }
 
 /* Features Icon */
 .features-icon {
   color: #ef8172;
-  font-size: 3.25rem;
+  font-size: 3.5rem;
   margin-bottom: 1rem;
 }
 
@@ -94,12 +107,8 @@ p {
 
 /* Testimonial Section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
-}
-
-.carousel-item {
   padding: 7% 15%;
 }
 
@@ -109,10 +118,14 @@ p {
   margin: 20px;
 }
 
+.testimonial-text {
+  font-size: 2.75rem;
+  line-height: 1.5;
+}
+
 /* Press */
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -123,33 +136,34 @@ p {
 
 /* Pricing */
 #pricing {
-  padding: 100px;
-  text-align: center;
+  padding: 7% 15%;
 }
-.pricing-column {
-  padding: 3% 2%;
+
+.price-text {
+  font-size: 2.75rem;
+  line-height: 1.5;
+}
+
+.pricing-header-text {
+  font-size: 1.5rem;
 }
 
 #cta {
-  text-align: center;
-  background-color: #ff4c68;
-  color: #fff;
-  padding: 7% 15% 2%;
+  padding: 7% 15%;
 }
 
-#cta h3 {
-  font-family: "Montserrat";
+.cta-heading {
   font-weight: 900;
   font-size: 3rem;
 }
 
 #footer {
-  text-align: center;
   padding: 7% 15%;
 }
 
 .footer-icons {
   padding: 0% 40% 3%;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 1100px) {
@@ -173,5 +187,6 @@ p {
 
   .footer-icons {
     padding: 2% 40%;
+    font-size: 1rem;
   }
 }
